@@ -12,8 +12,12 @@ for (let i = 0; i < fruits.length; i++) {
 
 const prices = [10, 20, 30, 40, 50];
 
-let k=0;
-while(k <prices.length) {
-    console.log(prices[k]);
-    k++;
+// let k=0;
+// while(k <prices.length) {
+//     console.log(prices[k]);
+//     k++;
+// }
+
+for(let i= prices.length-1;i>=0;i--) {
+    console.log(prices[i]);
 }
