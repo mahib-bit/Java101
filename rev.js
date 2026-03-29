@@ -21,3 +21,8 @@ const prices = [10, 20, 30, 40, 50];
 for(let i= prices.length-1;i>=0;i--) {
     console.log(prices[i]);
 }
+
+const Elements = [11,22,33,44,55];
+console.log(Elements);
+Elements.reverse();
+console.log(Elements);
