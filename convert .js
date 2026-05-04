@@ -3,5 +3,5 @@ function inchToFeet(inches) {
     return feet;
 }
 
-const shuvoheight = inchToFeet(72);
-console.log(shuvoheight);
+const shuvo_height = inchToFeet(72);
+console.log(shuvo_height);
